@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ec4e187e-6bf9-4eb2-a8e5-26975ade1579" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1jgxLttMbxxZxJFWD5y1frinZca" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ec4e187e-6bf9-4eb2-a8e5-26975ade1579" name="Default Changelist" comment="" />
+      <created>1604239484361</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1604239484361</updated>
+      <workItem from="1604239486085" duration="1977000" />
+      <workItem from="1604321923872" duration="487000" />
+      <workItem from="1604322481178" duration="12434000" />
+      <workItem from="1604474983247" duration="8435000" />
+      <workItem from="1604502425708" duration="1197000" />
+      <workItem from="1604506495947" duration="3351000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="16" y="553" key="#SQL_Dialects" timestamp="1604332818872">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="16" y="553" key="#SQL_Dialects/0.0.2560.1400@0.0.2560.1400" timestamp="1604332818872" />
+    <state x="798" y="466" key="NewPhpFileDialog" timestamp="1604339136499">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="798" y="466" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604339136499" />
+    <state x="700" y="358" key="SettingsEditor" timestamp="1604506676082">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="700" y="358" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604506676082" />
+  </component>
+</project>

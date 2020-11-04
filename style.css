@@ -1,0 +1,28 @@
+ body {
+     background-color: aliceblue;
+ }
+
+ h1 {
+     background-color: black;
+     color: white;
+     text-align: center;
+     font-size: 36px;
+ }
+
+ figure {
+     margin-inline-start: 0;
+     scroll-margin-inline-end: 0;
+ }
+ #container {
+    text-align: center;
+ }
+
+ .boots img {
+     width: 100%;
+     height: 100%;
+ }
+
+
+
+
+
