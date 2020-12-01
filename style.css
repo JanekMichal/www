@@ -1,28 +1,27 @@
  body {
-     background-color: aliceblue;
+    background-color: whitesmoke;
  }
 
- h1 {
-     background-color: black;
-     color: white;
-     text-align: center;
-     font-size: 36px;
- }
+
 
  figure {
      margin-inline-start: 0;
      scroll-margin-inline-end: 0;
  }
+
  #container {
     text-align: center;
  }
 
  .boots img {
+     margin-top: 1rem;
      width: 100%;
-     height: 100%;
+     height: auto;
  }
 
-
+.boots {
+    text-align: center;
+}
 
 
 

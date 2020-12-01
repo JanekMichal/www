@@ -1,7 +1,75 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="ec4e187e-6bf9-4eb2-a8e5-26975ade1579" name="Default Changelist" comment="" />
+    <list default="true" id="ec4e187e-6bf9-4eb2-a8e5-26975ade1579" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/add_product.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/admin_area.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/base.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cart.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/functions.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/1036503-undefined-960w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/janoski1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/janoski2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_details.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/1036503-undefined-960w.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/janoski1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/janoski2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/vansAuthentic.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/vansAuthentic4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/vansOldSkool.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/product_images/vansSk8Hi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/rejestracja.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udanaRejestracja.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/www.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/www.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/connect.php" beforeDir="false" afterPath="$PROJECT_DIR$/connect.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-grid.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap-reboot.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/bootstrap.min.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.bundle.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/bootstrap.min.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/login.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main_page.php" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/style.css" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -17,13 +85,22 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jgxLttMbxxZxJFWD5y1frinZca" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
@@ -33,8 +110,13 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\www" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -49,25 +131,78 @@
       <workItem from="1604322481178" duration="12434000" />
       <workItem from="1604474983247" duration="8435000" />
       <workItem from="1604502425708" duration="1197000" />
-      <workItem from="1604506495947" duration="3351000" />
+      <workItem from="1604506495947" duration="3546000" />
+      <workItem from="1604565281435" duration="2613000" />
+      <workItem from="1604571387541" duration="283000" />
+      <workItem from="1604571683956" duration="27000" />
+      <workItem from="1604572161721" duration="92000" />
+      <workItem from="1604572268234" duration="124000" />
+      <workItem from="1604592230369" duration="14406000" />
+      <workItem from="1605255912737" duration="4897000" />
+      <workItem from="1605284867416" duration="4841000" />
+      <workItem from="1605437434600" duration="4814000" />
+      <workItem from="1605528989667" duration="10637000" />
+      <workItem from="1605642395633" duration="3284000" />
+      <workItem from="1605683807026" duration="910000" />
+      <workItem from="1605801866202" duration="1856000" />
+      <workItem from="1605854903399" duration="30121000" />
+      <workItem from="1605939205983" duration="3280000" />
+      <workItem from="1605942525601" duration="9716000" />
+      <workItem from="1606208517080" duration="63000" />
+      <workItem from="1606304150822" duration="3726000" />
+      <workItem from="1606315054221" duration="2367000" />
+      <workItem from="1606324578081" duration="4236000" />
+      <workItem from="1606391865364" duration="327000" />
+      <workItem from="1606842128658" duration="314000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="16" y="553" key="#SQL_Dialects" timestamp="1604332818872">
+    <state x="16" y="553" key="#SQL_Dialects" timestamp="1605875538941">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="16" y="553" key="#SQL_Dialects/0.0.2560.1400@0.0.2560.1400" timestamp="1604332818872" />
-    <state x="798" y="466" key="NewPhpFileDialog" timestamp="1604339136499">
+    <state x="16" y="553" key="#SQL_Dialects/0.0.2560.1400@0.0.2560.1400" timestamp="1605875538941" />
+    <state x="232" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1605875578029">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="798" y="466" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604339136499" />
-    <state x="700" y="358" key="SettingsEditor" timestamp="1604506676082">
+    <state x="232" y="364" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605875578029" />
+    <state x="1158" y="602" key="Github.ShareDialog" timestamp="1604511425532">
       <screen x="0" y="0" width="2560" height="1400" />
     </state>
-    <state x="700" y="358" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1604506676082" />
+    <state x="1158" y="602" key="Github.ShareDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604511425532" />
+    <state x="1124" y="408" key="Github.UntrackedFilesDialog" timestamp="1604511433068">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="1124" y="408" key="Github.UntrackedFilesDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1604511433068" />
+    <state x="798" y="466" key="NewPhpFileDialog" timestamp="1605949283728">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="798" y="466" key="NewPhpFileDialog/0.0.2560.1400@0.0.2560.1400" timestamp="1605949283728" />
+    <state x="700" y="358" key="SettingsEditor" timestamp="1605858648596">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state x="700" y="358" key="SettingsEditor/0.0.2560.1400@0.0.2560.1400" timestamp="1605858648596" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1604603291021">
+      <screen x="0" y="0" width="2560" height="1400" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.2560.1400@0.0.2560.1400" timestamp="1604603291021" />
   </component>
 </project>
