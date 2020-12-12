@@ -1,14 +1,14 @@
 <?php
 
 session_start();
-require_once ('base.php');
-require_once ('connect.php');
+require_once('base.php');
+require_once('connect.php');
 
 
 ?>
 
-<!DOCTYPE html>
-<html lang="pl">
+    <!DOCTYPE html>
+    <html lang="pl">
 
     <head>
         <?php load_head(); ?>
@@ -61,7 +61,7 @@ require_once ('connect.php');
                                 $get_p_cats = "select * from product_category";
                                 $run_p_cats = mysqli_query($conn, $get_p_cats);
 
-                                while($row_p_cats = mysqli_fetch_array($run_p_cats)) {
+                                while ($row_p_cats = mysqli_fetch_array($run_p_cats)) {
 
                                     $p_cat_id = $row_p_cats['p_cat_id'];
                                     $p_cat_title = $row_p_cats['p_cat_title'];
@@ -72,86 +72,57 @@ require_once ('connect.php');
                                 ?>
                             </select>
                         </div>
-<!--                        <div class="mb-3">-->
-<!--                            <label for="validationCustom04">Wybierz Materiał</label>-->
-<!--                            <select class="custom-select" id="validationCustom04" required>-->
-<!--                                <option>Zamsz</option>-->
-<!--                                <option>Tekstylne</option>-->
-<!--                                <option>Skóra licowana</option>-->
-<!--                                <option>Sktóra syntetyczna</option>-->
-<!--                            </select>-->
-<!--                        </div>-->
-<!---->
-<!--                        <div class="mb-3">-->
-<!--                            <label for="validationCustom04">Wybierz płeć</label>-->
-<!--                            <select class="custom-select" id="validationCustom04" required>-->
-<!--                                <option>Męskie</option>-->
-<!--                                <option>Damskie</option>-->
-<!--                                <option>Unisex</option>-->
-<!--                            </select>-->
-<!--                        </div>-->
-
-<!--                        <div class="form-group">-->
-<!--                            <label class="control-label">Ilość w dostawie</label>-->
-<!--                            <input name="product_title" type="text" class="form-control" required>-->
-<!--                        </div>-->
-
-<!--                        <div class="form-group">-->
-<!--                            <label class="control-label">Nazwa</label>-->
-<!--                            <input name="product_title" type="text" class="form-control" required>-->
-<!--                        </div>-->
 
                         <table class="table">
                             <thead class="thead-dark">
                             <tr>
                                 <th scope="col">Rozmiar</th>
                                 <th scope="col">Ilość</th>
-
                             </tr>
                             </thead>
                             <tbody>
-                                <tr>
-                                    <th scope="row">40</th>
-                                    <th>
-                                        <input name="ilosc_rozm_40" type="number" class="form-control">
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">41</th>
-                                    <th>
-                                        <input name="ilosc_rozm_41" type="number" class="form-control">
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">42</th>
-                                    <th>
-                                        <input name="ilosc_rozm_42" type="number" class="form-control">
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">43</th>
-                                    <th>
-                                        <input name="ilosc_rozm_43" type="number" class="form-control">
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">44</th>
-                                    <th>
-                                        <input name="ilosc_rozm_44" type="number" class="form-control">
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">45</th>
-                                    <th>
-                                        <input name="ilosc_rozm_45" type="number" class="form-control">
-                                    </th>
-                                </tr>
-                                <tr>
-                                    <th scope="row">46</th>
-                                    <th>
-                                        <input name="ilosc_rozm_46" type="number" class="form-control">
-                                    </th>
-                                </tr>
+                            <tr>
+                                <th scope="row">40</th>
+                                <th>
+                                    <input name="ilosc_rozm_40" type="number" class="form-control">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row">41</th>
+                                <th>
+                                    <input name="ilosc_rozm_41" type="number" class="form-control">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row">42</th>
+                                <th>
+                                    <input name="ilosc_rozm_42" type="number" class="form-control">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row">43</th>
+                                <th>
+                                    <input name="ilosc_rozm_43" type="number" class="form-control">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row">44</th>
+                                <th>
+                                    <input name="ilosc_rozm_44" type="number" class="form-control">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row">45</th>
+                                <th>
+                                    <input name="ilosc_rozm_45" type="number" class="form-control">
+                                </th>
+                            </tr>
+                            <tr>
+                                <th scope="row">46</th>
+                                <th>
+                                    <input name="ilosc_rozm_46" type="number" class="form-control">
+                                </th>
+                            </tr>
                             </tbody>
                         </table>
 
@@ -166,7 +137,8 @@ require_once ('connect.php');
                         </div>
 
                         <div class="form-group">
-                            <input name="submit" value="Dodaj produkt" type="submit" class="btn btn-primary form-control">
+                            <input name="submit" value="Dodaj produkt" type="submit"
+                                   class="btn btn-primary form-control">
                         </div>
 
                     </form>
@@ -176,16 +148,19 @@ require_once ('connect.php');
     </main>
 
 
-
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+            crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+            crossorigin="anonymous"></script>
 
     </body>
-</html>
+    </html>
 
 <?php
 
-if(isset($_POST['submit'])){
+if (isset($_POST['submit'])) {
 
     $product_name = $_POST['product_name'];
     $product_brand = $_POST['product_brand'];
@@ -211,9 +186,9 @@ if(isset($_POST['submit'])){
     $temp_name2 = $_FILES['product_img2']['tmp_name'];
     $temp_name3 = $_FILES['product_img3']['tmp_name'];
 
-    move_uploaded_file($temp_name1,"product_images/$product_img1");
-    move_uploaded_file($temp_name2,"product_images/$product_img2");
-    move_uploaded_file($temp_name3,"product_images/$product_img3");
+    move_uploaded_file($temp_name1, "product_images/$product_img1");
+    move_uploaded_file($temp_name2, "product_images/$product_img2");
+    move_uploaded_file($temp_name3, "product_images/$product_img3");
 
     $insert_stock = "insert into stock(size40, size41, size42, size43, size44, size45, size46) values ('$ilosc_rozm_40', '$ilosc_rozm_41', '$ilosc_rozm_42', '$ilosc_rozm_43', '$ilosc_rozm_44', '$ilosc_rozm_45', '$ilosc_rozm_46')";
     $run_stock = mysqli_query($conn, $insert_stock);
@@ -225,14 +200,9 @@ if(isset($_POST['submit'])){
     $row_stock_id = mysqli_fetch_array($run_stock_id);
     $stock_id = $row_stock_id['stock_id'];
 
-    //echo $stock_id;
-    //nie dodają się produkty??
+
     $insert_product = "insert into product (name, brand, image1, image2, image3, stock_id, type, price, date_of_adding, description) values ('$product_name', '$product_brand','$product_img1', '$product_img2', '$product_img3', '$stock_id', '$product_cat', '$product_price', NOW(), '$product_desc')";
     $run_product = mysqli_query($conn, $insert_product);
-
-//    $product_id = "select product_id from product";
-//    $run_product_id = mysqli_query($conn, $product_id);
-    
 
     echo "<script>alert('Product has been inserted sucessfully ')</script>";
     mysqli_close($conn);

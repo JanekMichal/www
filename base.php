@@ -1,14 +1,14 @@
 <?php
-function load_head() {
-    echo'
+
+function load_head()
+{
+    echo '
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
-
     <meta http-equiv="x-ua-compatible" content="IE=edge,chrome=1"/>
     <link rel="stylesheet" href="style.css" type="text/css"/>
     <script src="https://kit.fontawesome.com/33c5504d8f.js" crossorigin="anonymous"></script>
-
     <style>
         .error {
             color: red;
@@ -19,9 +19,10 @@ function load_head() {
     ';
 }
 
-function load_navbar() {
+function load_navbar()
+{
 
-    echo'
+    echo '
     <nav class="navbar navbar-light bg-light navbar-expand-sm">
             <a class="navbar-brand" href="index.php">Najlepsze buty w sieci! </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainmenu"
@@ -34,13 +35,28 @@ function load_navbar() {
                         <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" role="button"
                         id="dropdown01"> Buty </a>
                         <div class="dropdown-menu" aria-labelledby="dropdown01">
-                            <a class="dropdown-item" href="#"> Miejskie </a>
-                            <a class="dropdown-item" href="#"> Skate </a>
-                            <a class="dropdown-item" href="#"> Marki </a>
-                            <a class="dropdown-item" href="#"> Sneakers </a>
-                            <a class="dropdown-item" href="#"> Klapki </a>
+                        ';
+    ?>
+    <?php
+    require('connect.php');
+    $get_p_cats = "select * from product_category";
+    $run_p_cats = mysqli_query($conn, $get_p_cats);
+
+    while ($row_p_cats = mysqli_fetch_array($run_p_cats)) {
+
+        $p_cat_id = $row_p_cats['p_cat_id'];
+        $p_cat_title = $row_p_cats['p_cat_title'];
+
+        echo " <a class='dropdown-item' href='index.php?category=$p_cat_id'> $p_cat_title </a> ";
+    }
+
+    ?>
+    <?php
+
+    echo '
                         </div>
                     </li>
+                    
                     <li class="nav-item">
                         <a class="nav-link" href="#"> Akcesoria do czyszczenia </a>
                     </li>
@@ -51,8 +67,17 @@ function load_navbar() {
                         <a class="nav-link" href="#"> Nowości </a>
                     </li>
                 </ul>';
-                    if(!isset($_SESSION['zalogowany'])) {
-                        echo '
+    if (isset($_SESSION['user'])) {
+        if ($_SESSION['user'] == "admin") {
+            echo '
+            <a class="navbar-brand" href="add_product.php">
+                    <img src="icons/plus-square.svg" width="30" height="30" alt="" >
+                </a>
+            ';
+        }
+    }
+    if (!isset($_SESSION['zalogowany'])) {
+        echo '
                         <div class="dropdown">
                                     <a class="navbar-brand ml-2" href="#" data-toggle="dropdown">
                                         <img src="icons/person-circle.svg" width="30" height="30" alt="" >
@@ -82,8 +107,8 @@ function load_navbar() {
                                     </div>
                                 </div>
                         ';
-                    } else {
-                        echo '
+    } else {
+        echo '
                         <div class="dropdown">
                     <a class="navbar-brand ml-2" href="#" data-toggle="dropdown">
                         <img src="icons/person-circle.svg" width="30" height="30" alt="" >
@@ -93,8 +118,8 @@ function load_navbar() {
                             <div class="form-group">
                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Konto: 
                                 ';
-                        echo "" . $_SESSION['user'];
-                        echo '</a>
+        echo "" . $_SESSION['user'];
+        echo '</a>
                                 <a class="nav-link" href="#">Moje konto</a>
                             </div>
                             <button type="submit"  class="btn btn-primary">Wyloguj się</button>
@@ -103,22 +128,18 @@ function load_navbar() {
                         <a class="dropdown-item" href="rejestracja.php">Nie masz konta? Rejestracja</a>
                     </div>
                 </div>';
-                    }
-                echo'
-                <a class="navbar-brand" href="#">
-                    <img src="icons/heart.svg" width="30" height="30" alt="" >
-                </a>
-
-                <a class="navbar-brand" href="#">
+    }
+    echo '
+                
+                <a class="navbar-brand" href="cart.php">
                     <img src="icons/cart3.svg" width="30" height="30" alt="" >
                 </a>
-
                 <form class="form-inline my-2 my-lg-0">
                     <input class="form-control mr-sm-2" type="search" placeholder="Szukaj">
                     <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Znajdź</button>
                 </form>
-
             </div>
         </nav>
     ';
 }
+
